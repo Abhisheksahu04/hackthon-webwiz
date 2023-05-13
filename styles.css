@@ -84,7 +84,7 @@ img {
     background: var(--color-white);
     color: var(--color-black);
     padding: 1rem 2rem;
-    border: 1px solid transparent;
+    border: 1px solid white;
     font-weight: 500;
     transition: var(--transition);
 }
