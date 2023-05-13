@@ -12,10 +12,10 @@ faq.addEventListener('click', () => {
 
 //Toggling hamburger menu
 function hamburg() {
-    if(document.getElementById("menu__alt").style.display == "none"){
-        document.getElementById("menu__alt").style.display = "flex";
+    if(document.getElementById("menu__alt").style.display == "flex"){
+        document.getElementById("menu__alt").style.display = "none";
     }
     else{
-        document.getElementById("menu__alt").style.display = "none";
+        document.getElementById("menu__alt").style.display = "flex";
     }
 }
