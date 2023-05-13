@@ -172,6 +172,7 @@ nav{
         margin: auto;
         width: 100%;
         text-align: center;
+        background-color: var(--color-bg);
     }
     .hidden__items:hover{
         background-color: var(--color-bg2);
