@@ -20,16 +20,30 @@
   </head>
   <body>
     <nav>
-      <div class="container nav__container">
-        <a href="index.html"><h4>WEBWIZ</h4></a>
-        <ul class="nav__menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">ContactUs</a></li>
-        </ul>
-      </div>
-    </nav>
+        <div class="container nav__container">
+          <a href="index.html"><h4>WEBWIZ</h4></a>
+          <ul class="nav__menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">ContactUs</a></li>
+          </ul>
+
+          <div class="hamburg">
+            <button id="hamburg" onclick="hamburg()">
+                <i class="fa fa-bars fa-lg"></i>
+            </button>
+          </div>
+        </div>
+        <div id="menu__alt">
+            <ul class="menu__hidden">
+                <li class="hidden__items"><a href="index.html">Home</a></li>
+                <li class="hidden__items"><a href="#">About</a></li>
+                <li class="hidden__items"><a href="#">Events</a></li>
+                <li class="hidden__items"><a href="#">ContactUs</a></li>
+            </ul>
+          </div>
+      </nav>
 
     <header>
       <div class="container header__container">
