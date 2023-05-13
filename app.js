@@ -11,12 +11,12 @@ faq.addEventListener('click', () => {
 })
 
 //Toggling hamburger menu
-document.getElementById("menu__alt").style.display == "none";
+document.getElementById("menu__alt").style.display = "none";
 function hamburg() {
-    if(document.getElementById("menu__alt").style.display == "flex"){
-        document.getElementById("menu__alt").style.display = "none";
+    if(!(document.getElementById("menu__alt").style.display == "flex")){
+        document.getElementById("menu__alt").style.display = "flex";
     }
     else{
-        document.getElementById("menu__alt").style.display = "flex";
+        document.getElementById("menu__alt").style.display = "none";
     }
 }
