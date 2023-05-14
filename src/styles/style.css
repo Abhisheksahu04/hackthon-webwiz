@@ -122,7 +122,10 @@ nav{
     background: var(--color-bg);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
-
+#logo{
+    height: 60px;
+    width: 60px;
+}
 .nav__menu{
     display: flex;
     align-items: center;
