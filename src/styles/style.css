@@ -383,10 +383,29 @@ header{
     margin-bottom: 1rem;
 }
 
-footer p {
+/* Footer */
+footer{
     display: flex;
-    flex-direction: column;
-    justify-self: center;
+    flex-direction: row;
+}
+#ft-left , #ft-right{
+    height: 80px;
+    background-color: #1f2641;
+    width: 50vw;
+}
+
+#ft-right{
+    width: 50vw;
+    display: flex;
+    flex-direction: row-reverse;
     align-items: center;
-    padding: 0.4rem;
+    
+}
+#ft-left p{
+    padding-left: 5vw;
+}
+.fa-lg{
+    font-size: 2em;
+    padding-inline: 10px;
+    padding-right: 5vw;
 }
