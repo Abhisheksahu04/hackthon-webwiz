@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Webwiz Hackthon</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./styles/form.css" />
+        <link
+          rel="stylesheet"
+          href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+        />
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="src/style/animation.css">
+      
+      </head>
+<body>
+    <div id="form-container">
+            <div id="steps">
+                <div id="div-steps1" class="div-steps active-step"><button type="button" id="step1" class="steps">Step 1</button></div>
+                <div id="div-steps2" class="div-steps"><button type="button" id="step2" class="steps">Step 2</button></div>
+                <div id="div-steps3" class="div-steps"><button type="button" id="step3" class="steps">Step 3</button></div>
+            </div>
+            <form>
+                <fieldset id="personalinfo"  class="section active">
+                    <h1>Personal Information</h1>
+                    <input type="text" placeholder="Name" id="name"class="pifield">
+                    <input type="text" placeholder="E-mail" id="email" class="pifield">
+                    <input type="text" placeholder="Mobile No." id="mobile" class="pifield">
+                    <div><button type="button" class="next" id="next-1">Next</button></div>
+                </fieldset>
+                <fieldset id="team" class="section">
+                    <h2>Select Team</h2>
+                    <div id="team-container">
+                        <div id="div1" class="radio"><input type="radio" name="team" id="developer"><label for="developer">Technical</label></div>
+                        <div id="div2" class="radio"><input type="radio" name="team" id="design"><label for="design">Design</label></div>
+                        <div id="div3" class="radio"><input type="radio" name="team" id="content"><label for="content">Content</label></div>
+                    </div>
+                    <h2>About Yourself</h2>
+                    <div id="about-you">
+                        <input type="text" id="input-box" placeholder="Write abuot your self">
+                    </div>
+                    <div><button type="button" class="next" id="next-2">Next</button></div>
+                </fieldset>
+                <fieldset id="tech-container" class="section">
+                    <h2>What do you know</h2>
+                    <div id="tech-known">
+                        <div class="tech-known"><input type="checkbox" id="html" name="tech"><label for="html">HTML</label></div>
+                        <div class="tech-known"><input type="checkbox" id="css" name="tech"><label for="css">CSS</label></div>
+                        <div class="tech-known"><input type="checkbox" id="js" name="tech"><label for="js">Javascirpt</label></div>
+                        <div class="tech-known"><input type="checkbox" id="react" name="tech"><label for="react">ReactJs</label></div>
+                    </div>
+                    <h2>Your Projects</h2>
+                    <div ><input type="text" placeholder="Git-Hub Repo Link" id="git"></div>
+                    <div><button type="button" class="next" id="next-3">Submit</button></div>
+                </fieldset>
+                <fieldset id="thankyou" class="section">
+                    <div><h2>Thank You!</h2></div>
+                    <div><h3>Your reasponse has been submited.</h3></div>
+                    <div><a href="form.html"><button type="button" class="next" id="next-2">Another Repons</button></a></div>
+                </fieldset>
+            </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
