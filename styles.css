@@ -190,8 +190,9 @@ header{
 
 .header__container
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
     align-items: center;
     gap: 5rem;
     height: 100%;
@@ -199,6 +200,19 @@ header{
 
 .header__left p {
     margin: 1rem 0 2.4rem;
+    max-width: 500px;
+}
+
+@media only screen and (max-width: 800px){
+    .header__container{
+        display: block;
+    }
+    header{
+        height: fit-content;
+    }
+    .header__left p{
+        max-width: 600px;
+    }
 }
 
 /* .categories {
