@@ -1,6 +1,6 @@
 //typeWriter
     var i = 0, j = 0;
-    const txts = ['cool', 'hard', 'boring', 'fun', 'amazing', 'tiring', '❤️'];
+    const txts = ['cool', 'fun', 'amazing', 'fantastic', '❤️'];
     
     function typeText() {
         var txt = txts[j];
