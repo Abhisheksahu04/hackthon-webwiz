@@ -390,6 +390,75 @@ header{
     margin-bottom: 1rem;
 }
 
+/* about */
+.about{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.about_us{
+    height: 220px;
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    /* background-color: rgb(193, 209, 85); */
+    border-radius: 15px;
+    text-align: center;
+    background-color: var(--color-danger);
+    transition-duration: 400ms;
+}
+
+.about_us h1{
+    height: 30%;
+    font-size: 30px;
+    padding-top: 5%;
+}
+
+.about_us:hover{
+    scale: 1.05;
+    transition-duration: 400ms;
+    box-shadow: 0 10px 40px 1px var(--color-bg2);
+}
+
+#projects{
+    text-align: center;
+}
+
+.project_container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+}
+
+.project{
+    margin: auto;
+    width: 340px;
+    background-color: #060f3f;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    transition-duration: 400ms;
+}
+
+.project:hover{
+    scale: 1.05;
+    opacity: 0.9;
+    transition-duration: 400ms;
+}
+
+.project p{
+    font-size: 14px;
+    text-align: center;
+}
+#bigp{
+    font-size: 20px;
+    text-align: center;
+}
+
 /* Footer */
 footer{
     display: flex;
