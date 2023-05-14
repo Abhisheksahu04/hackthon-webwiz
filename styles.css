@@ -160,7 +160,7 @@ nav{
     #menu__alt{
         display: none;
         width: 100vw;
-        background-color: var(--color-bg);
+        background-color: var(--color-primary);
     }
     .menu__hidden{
         display: unset;
