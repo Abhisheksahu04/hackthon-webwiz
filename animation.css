@@ -3,12 +3,18 @@
     padding: 0%;
 }
 
+.animation{
+    background: #4e54c8;
+    width: 100vw;
+    height: 400px;
+    z-index: -1;
+    padding-top: 100px;
+}
+
 .home{
-    display: block;
     width: 600px;
-    height: 55%;
+    height: 65%;
     margin: auto;
-    margin-top: 15vh;
     border: 2px solid transparent;
     border-radius: 50px;
     text-align: center;
@@ -39,14 +45,6 @@
     .typeWriter{
         font-size: 26px;
     }
-}
-
-.animation{
-    background: #4e54c8;
-    position: fixed;
-    width: 100vw;
-    height: 500px;
-    z-index: -1;
 }
 
 .floaters{
