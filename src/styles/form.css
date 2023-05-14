@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+:root {
+--color-primary: #4e54c8;
+--color-success: #00bf8e;
+--color-warning: #f7c94b;
+--color-danger: #f75842;
+--color-danger-variant: rgba(247, 88, 66, 0.4);
+--color-white: #fff;
+--color-light: rgba(255, 255, 255, 0.7);
+--color-black: #000;
+--color-bg: #1f2641;
+--color-bg1: #2e3267;
+--color-bg2: #424890;
+
+--container-width-lg: 80%;
+--container-width-md: 90%;
+--container-width-sm: 94%;
+
+--transition: all 400ms ease;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color: var(--color-white);
+    background: var(--color-bg);
+}
+
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+section{
+    padding: 6rem 0 ;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+h1, h2, h3, h4, h5{
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 2.4rem ;
+}
+
+h2{
+    font-size: 2.0rem ;
+}
+
+h3{
+    font-size: 1.6rem ;
+}
+
+h4{
+    font-size: 1.3rem ;
+}
+
+a {
+    color: var(--color-white);
+}
+#form-container{
+    height: 530px;
+    max-width: 500px;
+    width: 80vw;
+    margin: auto;
+    background-color: white;
+    margin-top: 44px;
+}
+/* STEPS */
+#steps , .div-steps , .steps{
+    width: 100%;
+}
+#steps{
+    display: flex;
+}
+.steps{
+    color: gray;
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    padding: 15px 0;
+}
+
+/* PERSONAL INFO */
+
+fieldset h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#personalinfo{
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    /* background-color: ; */
+}
+.pifield{
+    width: 60%;
+    margin: 15px auto;
+    height: 40px;
+    padding: 0px 8px;
+    background-color: lightgray;
+    border: 0;
+    border-radius: 5px;
+
+}
+form,fieldset{
+    height: 100%;
+    border: none;
+}
+
+/* Next button styling */
+
+.next{
+    height: 50px;
+    width: 120px;
+    margin: 15px;
+    background-color: orange;
+    border-radius: 8px;
+    border-width: 0;
+}
+.active-step{
+    border-bottom: 3px solid red;
+}
+.active{
+    display: flex!important;
+}
+
+/* Teams */
+
+#team input[type="radio"]{
+    display: none;
+}
+
+#team-container{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+#team .radio{
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#team{
+    flex-direction: column;
+    text-align: center;
+    display: none;
+}
+#team h2{
+    margin: 10px;
+}
+#next-2{
+    margin-top: 40px;
+}
+input[type="radio"] + label{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding-top: 7px;
+    color: #000;
+
+}
+input[type="radio"]:checked + label{
+    background-color: #4e54c8;
+
+    color: white;
+}
+#about-you input{
+    height: 150px;
+    width: 90%;
+}
+@media only screen and (max-width: 500px){
+    #next-2{
+        margin-top: 10px;
+    }
+    .radio{
+        margin: 15px;
+    }
+    #team-container{
+        margin: 10px;
+    }
+    #about-you input{
+        height: 100px;
+    }
+
+}
+#tech-container{
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+#tech-known{
+    display: flex;
+    flex-wrap: wrap;
+}
+#tech-container h2{
+    margin: 20px;
+}
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+}
+.tech-known{
+    display: flex;
+    padding: 10px;
+}
+#git{
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    border: 0;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+#thankyou{
+    flex-direction: column;
+    text-align: center;
+    display: none;
+    
+}
+#thankyou div{
+    margin: 30px 0px 0px 20px;
+}
+fieldset h1{
+    color: #000;
+}
+fieldset h2{
+    color: #000;
+}
+fieldset h3{
+    color: #000;
+}
+#input-box{
+    background-color: lightgrey;
+}
+#form-container{
+    color: #000!important;
+}
+#input-box::placeholder{
+    position: absolute;
+    margin: 10px;
+}
